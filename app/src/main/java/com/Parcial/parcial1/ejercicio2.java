@@ -55,7 +55,7 @@ TextView mensaje;
             mensaje.setText(""+msj);
         }
         catch(Exception ex){
-            Toast.makeText(this,"ingrese un numero porfavor",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,"ingrese un numero",Toast.LENGTH_SHORT).show();
         }
     }
 }
