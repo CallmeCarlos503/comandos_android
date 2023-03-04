@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="957dp"
+        android:layout_height="153dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="250px"
+
+        android:layout_marginEnd="22dp"
+        android:fontFamily="arial"
+        android:text="SELECTOR DE EJERCICIO"
+        android:textAlignment="center"
+        android:textSize="120px" />
+
+    <Button
+        android:id="@+id/btn_ej1"
+        android:layout_width="277dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="300px"
+        android:layout_marginTop="900px"
+        android:layout_marginEnd="62dp"
+        android:text="Ejercicio 1"
+        android:textSize="60px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_ej2"
+        android:layout_width="275dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/btn_ej1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="300px"
+        android:layout_marginTop="189dp"
+        android:layout_marginEnd="70dp"
+        android:text="Ejercicio 2"
+        android:textSize="60px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.73"
+        app:layout_constraintStart_toEndOf="@+id/btn_ej1"
+        app:layout_constraintTop_toTopOf="parent" />
+</RelativeLayout>
